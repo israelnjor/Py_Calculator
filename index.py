@@ -6,18 +6,27 @@ s, p = calc(56, 34)
 print(s, p)
 
 def calculator():
-    x = input("Enter your first number: ")
-    y = input("Enter your second number: ")
+  try:
+    x = float(input("Enter your first number: "))
+    y = float(input("Enter your second number: "))
     add = x + y
-    prod = x * Y
+    prod = x * y
     diff = x - y
+
+  if y == 0
+    print("undefined(division by zero)")
+  else:
     div = x / y
+    
     return add, prod, diff, div
 
 
-calculator()
-s, p, m, d = (add, prod, diff, div)
-print(s, p, m, d) 
+# calculator()
+s, p, m, d = calculator
+print("Sum: ", s)
+print("Product: ", p)
+print("Difference: ", m)
+print(Division: ", d)
 
 
 
