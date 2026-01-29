@@ -15,6 +15,10 @@ def calculator():
     return add, prod, diff, div
 
 
+calculator()
+s, p, m, d = (add, prod, diff, div)
+print(s, p, m, d) 
+
 
 
 
