@@ -13,20 +13,25 @@ def calculator():
     prod = x * y
     diff = x - y
 
-  if y == 0
-    print("undefined(division by zero)")
-  else:
-    div = x / y
+    if y == 0
+      print("undefined(division by zero)")
+    else:
+      div = x / y
     
-    return add, prod, diff, div
+     return add, prod, diff, div
 
+except ValueError:
+  print("Error: Please enter only numbers")
+  retun None
 
 # calculator()
-s, p, m, d = calculator
-print("Sum: ", s)
-print("Product: ", p)
-print("Difference: ", m)
-print(Division: ", d)
+result = calculator()
+if result is not None:
+  s, p, m, d = calculator
+  print("Sum: ", s)
+  print("Product: ", p)
+  print("Difference: ", m)
+  print(Division: ", d)
 
 
 
